@@ -1,4 +1,4 @@
-import { Item, State } from "./model/index";
+import { Item, State } from "./model";
 import { TodoItem } from "./Item";
 
 export type TodoListProps = {

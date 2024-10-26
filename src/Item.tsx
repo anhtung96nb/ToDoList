@@ -1,5 +1,4 @@
-import { Item } from "../../models";
-
+import { Item } from "./model";
 export type TodoItemProps = {
   item: Item;
   onStatusChanged: (status: boolean) => void;

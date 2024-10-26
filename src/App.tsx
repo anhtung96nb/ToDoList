@@ -2,7 +2,7 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import { Input } from "./input";
 import { TodoList } from "./List";
-import { Item, State } from "./model/index";
+import { Item, State } from "./model";
 import { v4 as uuidv4 } from "uuid";
 import { ActionBar } from "./Action";
 

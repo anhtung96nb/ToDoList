@@ -1,4 +1,4 @@
-import { State } from "./model/index";
+import { State } from "./model";
 
 type ActionBarProps = {
   itemLeft: number;
