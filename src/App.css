@@ -82,14 +82,21 @@
 }
 
 .App ul.list_items{
-  background-color: #61dafb;
+  background-color: #dadedf;
+  min-height: 120px;
 }
 .App ul.list_items li {
   list-style-type: none;
   color: #fff;
+  padding: 8px;
+  position: relative;
 
 }
 .App ul.list_items li>div {
-  display: inline-block;
-
+  float: left;
+}
+.App ul.list_items li button {
+  position: absolute;
+  right: 10px;
+  top: 8px
 }
