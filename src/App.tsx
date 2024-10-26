@@ -79,8 +79,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>TODO</h1>
-
+        <div className="header"></div>
         <Input onEnter={handleInputEnter} placeholder="Enter your text"></Input>
         <ActionBar
           state={state}
