@@ -44,6 +44,7 @@
   width: 400px;
 }
 .btn{
+    margin-right: 12px;
     display: inline-block;
     font-weight: 400;
     text-align: center;
@@ -62,10 +63,6 @@
 }
 .action-bar{
   width: 100%;
-}
-.action-bar label {
-  display: block;
-  float: left;
 }
 .input-content{
   clear: both;

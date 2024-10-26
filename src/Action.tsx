@@ -22,6 +22,7 @@ export function ActionBar({
       <label className="item-left-panel">
         {itemLeft} item{itemLeft > 1 ? "s" : ""} left
       </label>
+      <br></br>
       <button
         onClick={() => onStateChanged("All")}
         className={state === "All" ? "btn btn-active" : "btn"}
