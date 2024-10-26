@@ -21,6 +21,7 @@ export function TodoItem({ item, onStatusChanged, onDeleted }: TodoItemProps) {
         >
           {item.title}
         </label>
+        <br></br>
       </div>
       <button onClick={() => onDeleted(item.id)} className="btn-delete">
         X

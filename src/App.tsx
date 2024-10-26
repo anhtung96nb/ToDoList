@@ -79,7 +79,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Todo App - quang.nguyen3</h1>
+        <h1>TODO</h1>
 
         <Input onEnter={handleInputEnter} placeholder="Enter your text"></Input>
         <TodoList
