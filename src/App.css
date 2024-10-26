@@ -103,5 +103,5 @@
 .App .header {
   width: 50px;
   height: 50px;
-  background-image: url('/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg');
+  background-image: url('./logo.svg');
 }
