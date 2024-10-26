@@ -15,7 +15,7 @@ export type InputProps = {
   
     return (
       <form onSubmit={handleFormSubmit}>
-        <input className="input" placeholder={placeholder}></input>
+        <input className="input-content" placeholder={placeholder}></input>
       </form>
     );
   }
