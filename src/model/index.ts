@@ -3,6 +3,6 @@ export type Item = {
     title: string;
     completed?: boolean;
   };
-  
+
   export type State = "All" | "Active" | "Completed";
   
