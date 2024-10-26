@@ -41,7 +41,7 @@
   }
 }
 .App .container{
-  width: 400px;
+  width: 650px;
 }
 .btn{
     margin-right: 12px;
@@ -80,6 +80,16 @@
   border-radius: .25rem;
   transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-.App ul li {
+
+.App ul.list_items{
+  background-color: #61dafb;
+}
+.App ul.list_items li {
   list-style-type: none;
+  color: #fff;
+
+}
+.App ul.list_items li>div {
+  display: inline-block;
+
 }

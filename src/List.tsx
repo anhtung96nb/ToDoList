@@ -32,7 +32,7 @@ export function TodoList({
   }
 
   return (
-    <ul>
+    <ul className="list_items">
       {filterItemByState(items, stateFilter).map((x) => (
         <TodoItem
           key={x.id}
