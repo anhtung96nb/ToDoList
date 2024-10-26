@@ -82,12 +82,6 @@ function App() {
         <h1>TODO</h1>
 
         <Input onEnter={handleInputEnter} placeholder="Enter your text"></Input>
-        <TodoList
-          stateFilter={state}
-          items={todoItems}
-          onItemStatusChanged={handleItemStatusChanged}
-          onItemDeleted={handleItemDeleted}
-        />
         <ActionBar
           state={state}
           unmark={unmark}
@@ -95,6 +89,12 @@ function App() {
           onClearCompleted={handleClearCompleted}
           onMarkDone={handleMarkAllDone}
           itemLeft={itemLeft}
+        />
+        <TodoList
+          stateFilter={state}
+          items={todoItems}
+          onItemStatusChanged={handleItemStatusChanged}
+          onItemDeleted={handleItemDeleted}
         />
       </div>
     </div>

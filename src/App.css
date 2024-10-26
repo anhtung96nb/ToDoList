@@ -40,6 +40,9 @@
     transform: rotate(360deg);
   }
 }
+.App .container{
+  width: 400px;
+}
 .btn{
     display: inline-block;
     font-weight: 400;
@@ -57,8 +60,17 @@
     border-radius: .25rem;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-
-.item-content{
+.action-bar{
+  width: 100%;
+}
+.action-bar label {
+  display: block;
+  float: left;
+}
+.input-content{
+  clear: both;
+  width: 100%;
+  padding: 5px 16px;
   display: block;
   width: 100%;
   padding: .375rem .75rem;
@@ -70,4 +82,7 @@
   border: 1px solid #ced4da;
   border-radius: .25rem;
   transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.App ul li {
+  list-style-type: none;
 }
